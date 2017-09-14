@@ -20,4 +20,5 @@ data class Employee (
 ) : Serializable {
     constructor(firstName: String, lastName: String, description: String) :
             this(null, firstName, lastName, description)
+    constructor() : this(null, "", "", "")
 }
